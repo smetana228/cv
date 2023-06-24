@@ -13,6 +13,7 @@ h2
 
 .logos{
   position: fixed;
+  max-width: 30%;
   top:207px;
   right:8%;
   transition:0.5s;
@@ -22,6 +23,7 @@ h2
   transform:scale(1.2);
 }
 .logos1{
+  max-width: 30%;
   position: fixed;
   top:200px;
   right:15%;
@@ -32,6 +34,7 @@ h2
 }
 .logos2{
   position: fixed;
+  max-width: 30%;
   top:200px;
   right:22%;
   transition:0.5s;
@@ -52,7 +55,7 @@ p{
   right:0;
   bottom: 70px;
   transition:0.5s;
-  max-width: 400px;
+  max-width: 30%;
 }
 .border1:hover{
   transform:scale(1.2);
@@ -67,15 +70,15 @@ p{
   position: fixed;
   right:0;
   transition:0.5s;
-  bottom: 140px;
-  max-width: 400px;
+  top: 425px;
+  max-width: 30%;
 }
 .border3{
   position: fixed;
   right:0;
   transition:0.5s;
-  bottom: 210px;
-  max-width: 400px;
+  top: 350px;
+  max-width: 30%;
 }
 .vl{ 
   padding:10px;
@@ -119,9 +122,4 @@ p{
   100%{
     border-radius:50% 50% 50% 50% / 50% 50% 50% 50% ;
   }
-}
-@media screen and (max-width:480px){
-  .border2{
-    center: 140px;
-    
 }

@@ -84,7 +84,7 @@ p{
 }
 .bor2{
   max-width: 1250px;
-  position: static;
+  position: absolute;
   bottom: -500px;
   left:0;
 }

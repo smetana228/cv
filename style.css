@@ -120,3 +120,8 @@ p{
     border-radius:50% 50% 50% 50% / 50% 50% 50% 50% ;
   }
 }
+@media screen and (max-width:480px){
+  .border2{
+    center: 140px;
+    
+}

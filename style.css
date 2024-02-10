@@ -70,14 +70,14 @@ p{
   position: fixed;
   right:0;
   transition:0.5s;
-  top: 425px;
+  bottom: 140px;
   max-width: 30%;
 }
 .border3{
   position: fixed;
   right:0;
   transition:0.5s;
-  top: 350px;
+  bottom: 210px;
   max-width: 30%;
 }
 .vl{ 
@@ -88,7 +88,7 @@ p{
 .bor2{
   max-width: 1250px;
   position: absolute;
-  bottom: -500px;
+  bottom: -450;
   left:0;
 }
 .bor1{
@@ -122,4 +122,9 @@ p{
   100%{
     border-radius:50% 50% 50% 50% / 50% 50% 50% 50% ;
   }
+}
+@media screen and (max-width:480px){
+  .border2{
+    center: 140px;
+    
 }
